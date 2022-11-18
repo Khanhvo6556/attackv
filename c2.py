@@ -754,8 +754,8 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = khanhvo"
-    passwd = "123456"
+    user = "admin"
+    passwd = "admin"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
